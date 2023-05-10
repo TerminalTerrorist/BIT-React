@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'San Francisco';
+  src: url(fonts/FontsFree-Net-SF-UI-Display-Bold.ttf) format('opentype');
+}
+
+body {
+  background-color: #fbfbfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.profile-card {
+  max-width: 700px;
+  height: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 40px;
+  text-align: center;
+  font-family: 'San Francisco', sans-serif;
+  font-size: 24px;
+  margin: 10px;
+  box-shadow: 0 11px 34px 0 rgba(0,0,0,.2);
+  flex: 1;
+}
+
+.profile-card img {
+  width: 50%;
+  max-width: 200px; 
+  height: auto; 
+  border-radius: 50%;
+}
+
+.profile-card h2 {
+  font-size: 24px;
+}
+
+.profile-card p {
+  font-size: 16px;
+  margin-top: 40px;
+  color: rgb(0, 0, 0);
+}
